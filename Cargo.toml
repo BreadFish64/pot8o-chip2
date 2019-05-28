@@ -1,0 +1,15 @@
+[package]
+name = "pot8o-chip2"
+version = "0.1.0"
+authors = ["BreadFish64 <mohror64@gmail.com>"]
+edition = "2018"
+
+[profile.release]
+debug = true
+
+[dependencies.sdl2]
+version = "0.32.2"
+features = ["unsafe_textures"]
+
+[dependencies.rand]
+version = "0.6.5"
